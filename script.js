@@ -85,7 +85,13 @@ function changeColor(color, t) {
     toggleMenu()
   }
   }
-
+/*
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Albiere123/site-consientiza-o-ia.git
+git push -u origin main
+*/
 
 window.addEventListener("DOMContentLoaded", () => {
     const saved = new CustomDB( "cor").get("cor");
