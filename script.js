@@ -99,7 +99,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const menu = document.getElementById("colorMenu");
     menu.classList.remove("inicial");
-
+//q
   });
   
   function toggleMenu2() {
