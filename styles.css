@@ -75,7 +75,9 @@ header {
   }
 
 
-  
+h2 {
+    max-width: 59%;
+}
 #colorBtn1:not(.active):hover {
     font-size: 20px;
   }
