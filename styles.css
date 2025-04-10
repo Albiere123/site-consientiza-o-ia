@@ -1,0 +1,179 @@
+body {
+    background-color: var(--cor-bg, rgb(252, 252, 120));
+    font-size: 20px;
+    transition: var(--t, 0s);
+    color: var(--cor-h, black);
+}
+
+h1 {
+    font-size: 50px;
+    font-style: bold;
+    transition: 1s;
+}
+p {
+    max-width: 950px;
+    text-indent: 30px;
+    transition: 1s;
+}
+.header {
+    position: relative;
+    display: inline;
+    gap: 10px;
+    color: white;
+    font-size: 15px;
+    font-style: bold;
+    cursor: pointer;
+    background-color: var(--cor-h, black);
+    z-index: 1;
+    transition: var(--t, 0s);;
+}
+.ad {
+    z-index: 0;
+    position: absolute;
+    background-color: var(--cor-h, black);
+    top: 1px;
+    height: 40px;
+    width: 100%;
+    left: 0px;
+    transition: var(--t, 0s);
+}
+header {
+    position: relative;
+    display: inline;
+    
+}
+.button1 {
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 5%;
+    transition: 2s;
+}
+
+.main {
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 5%;
+    transition: 2s;
+}
+
+.button2 {
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 5%;
+    transition: 2s;
+}
+
+
+.button {
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 5%;
+}
+#colorBtn:not(.active):hover {
+    font-size: 20px;
+  }
+
+
+  
+#colorBtn1:not(.active):hover {
+    font-size: 20px;
+  }
+.img1 {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    left: 1100px;
+    top: 100px;
+    transition: 2s;
+}
+
+.img2 {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    left: 1100px;
+    top: 100px;
+    transition: 2s;
+}
+#imgg:not(.active):hover {
+    width: 400px;
+    left: 1050px;
+    top: 55px;
+  }
+
+#imgMenu:not(.active1):hover {
+    width: 400px;
+    left: 1050px;
+    top: 55px;
+
+}
+
+.img2.expandir1 {
+    width: 400px;
+    left: 1050px;
+    top: 55px;
+}
+
+.p3 {
+    opacity: 0;
+    transition: opacity 1s ease;
+    pointer-events: none; /* impede clique quando invisível */
+}
+
+.p4 {
+    opacity: 1;
+    transition: opacity 1s ease;
+    pointer-events: auto
+}
+
+.p2 {
+    position: absolute;
+    left: 1118px;
+    top: 400px;
+    max-width: 290px;
+    font-size: 19px;
+    
+}
+
+.video1 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.troca{
+    transition: 2s;
+}
+.Menu {
+    position: absolute;
+    left: 79.7%;
+    top: 150%;
+    background-color: black;
+    width: 126px;
+    max-height: 0;
+    display: hidden;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.Menu.expandir {
+    transition: max-height 1s ease;
+    max-height: 300px; /* altura suficiente para mostrar tudo */
+}
+
+.fechar {
+    transition: max-height 1s ease;
+    max-height: 0px; /* altura suficiente para mostrar tudo */
+}
+.esconder {
+    display: none;
+    
+}
+.t {
+    padding: 6px 29%;
+    background-color: gray;
+}
+
+.t:hover {
+    font-size: 18px
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - AnaLiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header" id="head">
+        <header>
+            <div class="header main" id="colorBtn" onclick="document.location='index.html'">Página Principal</div>
+            <div class="header button1" id="colorBtn" onclick="document.location='guia.html'">Guia Escrito</div>
+            <div class="header button2" id="colorBtn" onclick="document.location='videoTutoriais.html'">Videos Tutoriais</div>
+            <div class="header button2" id="colorBtn" onclick="document.location='referencias.html'">Referências</div>
+            <div class="header button troca" id="colorBtn" onclick="toggleMenu()">Seletor de Temas</div>
+            <div id="colorMenu" class="Menu">
+                    <div onclick="changeColor('white', '2s')" class="t">Claro</div>
+                    <div onclick="changeColor('rgb(252, 252, 120)', '2s')" class="t">Padrão</div>
+                    <div onclick="changeColor('black', '2s')" class="t">Escuro</div>
+                  </div>
+        </header>
+    </div>
+    <div class="ad" id="heads"></div>
+    <h1 id="para2"><br><br>Objetivo Do Guia</h1>
+    <p id="para0">Criar um material simples, direto e fácil de usar no cotidiano acadêmico/escolar que ajude estudantes e professores a entenderem como usar a inteligência artificial de forma correta e consciente, evitando problemas e garantindo que as atividades continuem sendo éticas e de qualidade.</p>
+    <p id="para1">Clique no botão "Guia Escrito" para iniciar (LOCALIZADO NO CANTO SUPERIOR ESQUERDO DA TELA)</p>
+
+    <img src="./public/GIU AMA 255-07.png" id="imgg" class="img1" onclick="toggleMenu2()">
+    <div class="paraE"><p>"Os estudantes têm expectativas e preferências em relação ao uso e à integração da IA em suas universidades, mas estão insatisfeitos com o estado atual da IA no ambiente universitário, sendo que 80% afirmam que a IA nas universidades não está atendendo completamente às suas expectativas."</p></div>
+    <script src="script.js"></script>
+</body>
+</html>
