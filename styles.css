@@ -7,11 +7,12 @@ body {
 
 h1 {
     font-size: 50px;
+    max-width: 59%;
     font-style: bold;
     transition: 1s;
 }
 p {
-    max-width: 950px;
+    max-width: 59%;
     text-indent: 30px;
     transition: 1s;
 }
