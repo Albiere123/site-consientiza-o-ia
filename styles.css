@@ -5,10 +5,7 @@ body {
     color: var(--cor-h, black);
 
 }
-iframe {
-    align-items: center;
-     
-}
+
 h2 {
     transition: 1s;
 }
@@ -147,9 +144,9 @@ h2 {
 }
 
 .video1 {
-    position: absolute;
-    top: 10%;
-    left: 30%;
+    align-items: center;
+    margin-left: 30%;
+    size: auto;
 }
 
 .troca{
